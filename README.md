@@ -2,6 +2,8 @@
  This projected was actualised for the creation of my portfolio.
 
 [![app-screesnhot.png](https://i.postimg.cc/TPNFw0Zr/app-screesnhot.png)](https://postimg.cc/t1P2v3RT)
+[![app-screenshot2.png](https://i.postimg.cc/VvdPF6Cb/app-screenshot2.png)](https://postimg.cc/Fk56rhG9)
+[![app-screenshot3.png](https://i.postimg.cc/J72Lzbf3/app-screenshot3.png)](https://postimg.cc/LhL7yZ6h)
 
 # Additional description about the project and its features.
 

@@ -40,13 +40,16 @@ body {
   flex-direction: column;
   align-items: flex-end;
   padding: 10px 40px;
+  margin-right: 28px;
+  color: #344563;
 }
 
 .sm {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   width: 50%;
-  margin-right: 24px;
+  margin-right: 35px;
+  margin-top: 26px;
 }
 
 .contact {
@@ -61,7 +64,7 @@ h1 {
   align-items: center;
   width: 327px;
   height: 100px;
-  margin-left: 50px;
+  margin-left: 60px;
   top: 114px;
 }
 
@@ -215,7 +218,8 @@ h3 {
 }
 
 .about {
-  margin: 12px;
+  margin-top: 228px;
+  margin-right: 24px;
   padding: 24px;
   background-color: #ffff;
   border-radius: 25px;
@@ -239,10 +243,12 @@ h2 {
   margin-right: 102px;
   line-height: 24px;
   justify-content: space-between;
+  margin-top: 60px;
 }
 
 i.fas.fa-angle-down.fa-2x {
   color: #7a869a;
+  justify-content: flex-end;
 }
 
 .frameworks {

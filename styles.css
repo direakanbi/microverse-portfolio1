@@ -443,4 +443,16 @@ form textarea::placeholder{
 .contact-form-btn:hover{
   color: #FFFFFF;
   background-color: #2230d2;
+  border: 1px solid #CFD8DC;
+  border-radius: 8px;
+  
+}
+form textarea{
+  /* Mono/White */
+
+background: #FFFFFF;
+/* Base/100 */
+
+border: 1px solid #CFD8DC;
+border-radius: 8px;
 }

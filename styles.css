@@ -1,3 +1,4 @@
+/* stylelint-disable no-descending-specificity */
 *,
 *::before,
 *::after {
@@ -346,3 +347,116 @@ article {
   color: #344563;
   margin-top: 20px;
 }
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  background-image: url("contactformshapes.png"), url("Contactme.png");
+  align-items: center;
+  justify-content: center;
+  height: 779px;
+  margin-top: 113px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact-form span {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  color: white;
+}
+
+.contact-form span:hover {
+  text-decoration: underline;
+}
+
+.contact-form p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+}
+
+.contact-form p:hover {
+  text-decoration: underline;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input {
+  width: 327px;
+  height: 48px;
+  margin-bottom: 18px;
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+}
+
+form input::placeholder {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 20px;
+  padding-left: 15px;
+  padding-top: 16px;
+  align-items: center;
+  color: #172b4d;
+}
+
+.contact-form-btn:hover {
+  color: #fff;
+  background-color: #2230d2;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+}
+
+form textarea {
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+}
+
+form textarea::placeholder {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  padding: 16px 15px;
+  color: #b3bac5;
+}
+
+.contact-form-btn {
+  background: #fff;
+  border-radius: 8px;
+  margin-top: 22px;
+  width: 140px;
+  color: #6070ff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+.backgroundellipse img {
+  height: 31px;
+  position: absolute;
+  top: 5082px;
+}
+
+.rectangele7 img {
+  position: absolute;
+  width: 76.17px;
+  height: 13.63px;
+  left: 330px;
+  top: 5080.89px;
+  background: #7f8cff;
+  transform: matrix(0.8, 0.6, 0.6, -0.8, 0, 0);
+}
+/* stylelint-enable no-descending-specificity */

@@ -394,16 +394,19 @@ line-height: 20px;
 padding-left: 15px;
 padding-top: 16px;
 align-items: center;
-
-
 color: #172B4D;
 }
 form textarea{
-  /* Mono/White */
-
 background: #FFFFFF;
-/* Base/100 */
-
 border: 1px solid #CFD8DC;
 border-radius: 8px;
+}
+form textarea::placeholder{
+  font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 24px;
+padding: 16px 15px;
+color: #B3BAC5;
 }

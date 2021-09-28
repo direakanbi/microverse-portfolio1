@@ -347,6 +347,7 @@ article {
   margin-top: 20px;
 }
 .contact-form{
+  margin-top: 113px;
   display: flex;
   flex-direction: column;
   background-image: url("Contactme.png");
@@ -356,13 +357,16 @@ article {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.contact-form h2{
+.contact-form span{
   font-family: Poppins;
 font-style: normal;
 font-weight: bold;
 font-size: 40px;
 line-height: 52px;
 color: white;
+}
+.contact-form span:hover{
+  text-decoration: underline;
 }
 .contact-form p{
   font-family: Poppins;
@@ -372,6 +376,9 @@ font-size: 20px;
 line-height: 28px;
 text-align: center;
 color: #EBEBFF;
+}
+.contact-form p:hover{
+  text-decoration: underline;
 }
 .contact-form form{
   display: flex;
@@ -409,4 +416,20 @@ font-size: 15px;
 line-height: 24px;
 padding: 16px 15px;
 color: #B3BAC5;
+}
+.contact-form-btn{
+background: #FFFFFF;
+border-radius: 8px;
+margin-top: 22px;
+width: 140px;
+color: #6070FF;
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 24px;
+}
+.contact-form-btn:hover{
+  color: #FFFFFF;
+  background-color: #2230d2;
 }

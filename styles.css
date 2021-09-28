@@ -346,3 +346,40 @@ article {
   color: #344563;
   margin-top: 20px;
 }
+.contact-form{
+  display: flex;
+  flex-direction: column;
+  background-image: url("Contactme.png");
+  align-items: center;
+  justify-content: center;
+  height:779px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contact-form h2{
+  font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 52px;
+color: white;
+}
+.contact-form p{
+  font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 28px;
+text-align: center;
+color: #EBEBFF;
+}
+.contact-form form{
+  display: flex;
+  flex-direction: column; 
+}
+form input{
+  margin-bottom:18px;
+  background: #FFFFFF;
+border: 1px solid #CFD8DC;
+border-radius: 8px;
+}

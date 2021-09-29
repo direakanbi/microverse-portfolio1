@@ -1,241 +1,385 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;900&display=swap" rel="stylesheet"  />
     <title>Dire's Portfolio</title>
-    <script src="https://kit.fontawesome.com/b7a7cffe76.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;700&display=swap" rel="stylesheet" >
-</head>
-<body>
-  <main>
-      <header class="header">
-       <a href="">My Logo</a>
-      <nav><a href=""><i class="fas fa-bars"></i></a></nav>
-      </header> 
+  </head>
+  <body>
+    <header class="header">
+      <h3 class="logo__title"><a href="#" class="link__logo">My Logo</a></h3>
+      <nav class="menu__cont">
+        <i class="fas fa-bars fa-lg menu--humb"></i>
+        <ul class="cont-menu-list">
+          <li class="menu-list">
+            <a href="#" class="link-menu">Portfolio</a>
+          </li>
+          <li class="menu-list">
+            <a href="#" class="link-menu">About</a>
+          </li>
+          <li class="menu-list">
+            <a href="#" class="link-menu">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
     <section class="container">
       <div class="intro">
-        <h1>Hi! I'M DIRE</h1> 
-          <h1>GLAD TO SEE <br>YOU!</h1>
-         <p class="txt1">I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
+        <h1 class="intro-header">I’m Dire <br> Glad to see you!</h1>
+        <p class="intro-text">
+          I’m a software developer! I can help you build a product , feature or
+          website Look through some of my work and experience! If you like what
+          you see and have a project you need coded, don’t hestiate to contact
+          me.
+        </p>
+        <h3 class="header-link">
+          <a href="#" class="connect">Let's Connect</a>
+        </h3>
+        <ul class="intro__social--cont">
+          <li class="social__item">
+            <a href="#" class="link__social">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li class="social__item">
+            <a href="#" class="link__social">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </li>
+          <li class="social__item">
+            <a href="#" class="link__social">
+              <i class="fab fa-medium-m"></i>
+            </a>
+          </li>
+          <li class="social__item">
+            <a href="#" class="link__social">
+              <i class="fab fa-github-square"></i>
+            </a>
+          </li>
+          <li class="social__item">
+            <a href="#" class="link__social">
+              <i class="far fa-hand-peace"></i>
+            </a>
+          </li>
+        </ul>
       </div>
-
-    
-       <div class="contact"> 
-          <a href="#" class="contacts">LET'S CONNECT</a>
-        </div> 
-      <div class="social-media">
-        <ul class="sm">
-            <li><a href="#"><i class="fab fa-twitter"></i></a></li> 
-            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-            <li><a href="#"><i class="fab fa-medium-m"></i></a></li>
-            <li><a href="#"><i class="fab fa-github"></i></a></li> 
-        </ul>
-      </div>
-    <section class="main1">
-    <ul class="cards-container">
-        <li class="work one">
-        <img src="./snapshot-porfolio.png" alt="project-image" class="project-image1">
-        
-        <h3>TONIC</h3>
-
-        <div class="sub-title">
-        <h4>Canopy</h4>
-        <i class="fas fa-circle"></i>
-        <h4 class="back-end"> Back End Dev</h4>
-        <h4 class="date2"><i class="fas fa-circle"></i> 2015</h4>
-        </div>
-
-        <section class="article1">
-        <p>
-            A daily selection of privately personalized reads; no accounts or sign-ups required.
-        </p>
-        </section>
-
-        <ul class="languages">
-        <li><a href="#">html</a></li>
-        <li><a href="#">css</a></li>
-        <li><a href="#">javaScript</a></li>
-        </ul>
-
-        <button class="see">See Project</button>
-    </ul>
-
-    <li class="work two">
-        <img src="./snapshot-portfolio2.png" alt="project-image2">
-        
-        <h3>MULTI-POST<br>STORIES</h3>
-
-        <div class="sub-title">
-        <h4>Canopy</h4>
-        <i class="fas fa-circle"></i><h4 class="back-end"> Back End Dev</h4>
-        <i class="fas fa-circle"></i><h4 class="date2"> 2015</h4>
-        </div>
-
-        <article>
-        <p>
-            A daily selection of privately personalized reads; no accounts or sign-ups required.
-        </p>
-        </article>
-
-        <ul class="languages">
-        <li><a href="#">html</a></li>
-        <li><a href="#">css</a></li>
-        <li><a href="#">javaScript</a></li>
-        </ul>
-
-
-        <button class="see">See Project</button>
-
-
-    </li>
-
-
-    <li class="work three">
-        <img src="./snapshot-portfolio3.png" alt="project-image3">
-        
-        <h3>TONIC</h3>
-
-        <div class="sub-title">
-        <h4>Canopy</h4>
-            <i class="fas fa-circle"></i><h4 class="back-end"> Back End Dev</h4>
-            <i class="fas fa-circle"></i><h4 class="date2"> 2015</h4>
-        </div>
-
-        <article>
-        <p>
-            A daily selection of privately personalized reads; no accounts or sign-ups required.
-        </p>
-        </article>
-
-        <ul class="languages">
-        <li><a href="#">html</a></li>
-        <li><a href="#">css</a></li>
-        <li><a href="#">javaScript</a></li>
-        </ul>
-
-
-        <button class="see">See Project</button>
-
-    </li>
-
-    <ul class="work four">
-        <img src="./snapshot-portfolio4.png" alt="project-image4">
-        
-        <h3>MULTI-POST <br>STORIES</h3>
-
-        <div class="sub-title">
-        <h4>Canopy</h4>
-        <i class="fas fa-circle"></i><h4 class="back-end"> Back End Dev</h4>
-        <i class="fas fa-circle"></i><h4 class="date2"> 2015</h4>
-        </div>
-
-        <article>
-        <p>
-            A daily selection of privately personalized reads; no accounts or sign-ups required.
-        </p>
-        </article>
-
-        <ul class="languages">
-        <li><a href="#">html</a></li>
-        <li><a href="#">css</a></li>
-        <li><a href="#">javaScript</a></li>
-        </ul>
-
-        <button class="see">See Project</button>
-        
-    </ul>
-
-    
-        <section class="about">
-        <h2>About <br>Myself</h2>
-        <p class="about1">Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
-        
-        <div class="contacts"> 
-        <header><a href="#" class="lets-connect">LET'S CONNECT</a></header>  
-        </div>
-
-        
-        <div class="social-media">
-        <ul class="sm">
-            <li><a href="#" aria-label="twitter"><i class="fab fa-twitter"></i></a></li> 
-            <li><a href="#" aria-label="linkedin"><i class="fab fa-linkedin-in"></i></a></li>
-            <li><a href="#" aria-label="medium"><i class="fab fa-medium-m"></i></a></li>
-            <li><a href="#" aria-label="gtihub"><i class="fab fa-github"></i></a></li> 
-        </ul>
-        </div>
-    
-        <button class="see">Get My Resume</button>
-    </li>
-
-    <li class="sub-header">
-        <h3>Languages</h3><i class="fas fa-angle-down fa-2x"></i>
-    </li>
     </section>
-    
-    <ul class="frameworks">
-        <li class="js">
-            <img src="./ellipse1.png" alt=""><h4 class="js">Javascript</h4>
-        </li>
-        <li class="html">
-            <img src="./ellipse2.png" alt=""><h4 class="html">HTML5</h4>
-        </li>
-        <li class="css">
-            <img src="./ellipse3.png" alt=""><h4 class="css">CSS</h4>
-        </li>
-    </ul>
+
+    <section class="container__card">
+      <div class="card">
+        <div class="card__img--cont">
+          <figure class="img-wrapper">
+            <img
+              src="./Snapshoot-Portfolio1.png"
+              alt="image of a project"
+              class="img__card"
+            />
+          </figure>
+          <div class="prjct-info-wrapper">
+            <h2 class="desc__project">Tonic</h2>
+            <ul class="project__info--cont">
+              <li class="project__info--title">Canopy</li>
+              <li class="project__info--dot">
+                <i class="fas fa-circle color__circle"></i>
+              </li>
+              <li class="project__info--author">Back End Dev</li>
+              <li class="project__info--dot">
+                <i class="fas fa-circle color__circle"></i>
+              </li>
+              <li class="project__info--date">2015</li>
+            </ul>
+            <ul class="list__lng--btn">
+              <li class="lng__btn--cont">
+                <button type="button" class="lng__btn">html</button>
+              </li>
+              <li class="lng__btn--cont">
+                <button type="button" class="lng__btn">css</button>
+              </li>
+              <li class="lng__btn--cont">
+                <button type="button" class="lng__btn">javascript</button>
+              </li>
+            </ul>
+            <p class="project__desc--text">
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required.
+            </p>
+            <button type="button" class="btn-action">See Project</button>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card__img--cont card-2">
+          <figure class="img-wrapper">
+            <img
+              src="./snapshot-portfolio2.png"
+              alt="image of a project"
+              class="img__card"
+            />
+          </figure>
+          <div class="prjct-info-wrapper">
+            <h2 class="desc__project">Multi-Post Stories</h2>
+            <ul class="project__info--cont">
+              <li class="project__info--title">Canopy</li>
+              <li class="project__info--dot">
+                <i class="fas fa-circle color__circle"></i>
+              </li>
+              <li class="project__info--author">Back End Dev</li>
+              <li class="project__info--dot">
+                <i class="fas fa-circle color__circle"></i>
+              </li>
+              <li class="project__info--date">2015</li>
+            </ul>
+            <p class="project__desc--text">
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required.
+            </p>
+            <ul class="list__lng--btn">
+              <li class="lng__btn--cont">
+                <button type="button" class="lng__btn">html</button>
+              </li>
+              <li class="lng__btn--cont">
+                <button type="button" class="lng__btn">css</button>
+              </li>
+              <li class="lng__btn--cont">
+                <button type="button" class="lng__btn">javascript</button>
+              </li>
+            </ul>
+            <button type="button" class="btn-action">See Project</button>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card__img--cont">
+          <figure class="img-wrapper">
+            <img
+              src="./snapshot-portfolio3.png"
+              alt="image of a project"
+              class="img__card"
+            />
+          </figure>
+          <div class="prjct-info-wrapper">
+            <h2 class="desc__project">Tonic</h2>
+            <ul class="project__info--cont">
+              <li class="project__info--title">Canopy</li>
+              <li class="project__info--dot">
+                <i class="fas fa-circle color__circle"></i>
+              </li>
+              <li class="project__info--author">Back End Dev</li>
+              <li class="project__info--dot">
+                <i class="fas fa-circle color__circle"></i>
+              </li>
+              <li class="project__info--date">2015</li>
+            </ul>
+            <p class="project__desc--text">
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required.
+            </p>
+            <ul class="list__lng--btn">
+              <li class="lng__btn--cont">
+                <button type="button" class="lng__btn">html</button>
+              </li>
+              <li class="lng__btn--cont">
+                <button type="button" class="lng__btn">css</button>
+              </li>
+              <li class="lng__btn--cont">
+                <button type="button" class="lng__btn">javascript</button>
+              </li>
+            </ul>
+            <button type="button" class="btn-action">See Project</button>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card__img--cont card-4">
+          <figure class="img-wrapper">
+            <img
+              src="./snapshot-portfolio4.png"
+              alt="image of a project"
+              class="img__card"
+            />
+          </figure>
+          <div class="prjct-info-wrapper">
+            <h2 class="desc__project">Multi-Post Stories</h2>
+            <ul class="project__info--cont">
+              <li class="project__info--title">Canopy</li>
+              <li class="project__info--dot">
+                <i class="fas fa-circle color__circle"></i>
+              </li>
+              <li class="project__info--author">Back End Dev</li>
+              <li class="project__info--dot">
+                <i class="fas fa-circle color__circle"></i>
+              </li>
+              <li class="project__info--date">2015</li>
+            </ul>
+            <p class="project__desc--text">
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required.
+            </p>
+            <ul class="list__lng--btn">
+              <li class="lng__btn--cont">
+                <button type="button" class="lng__btn">html</button>
+              </li>
+              <li class="lng__btn--cont">
+                <button type="button" class="lng__btn">css</button>
+              </li>
+              <li class="lng__btn--cont">
+                <button type="button" class="lng__btn">javascript</button>
+              </li>
+            </ul>
+            <button type="button" class="btn-action">See Project</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about">
+      <div class="res-skil-cont">
+        <div class="intro__resume">
+          <h1 class="intro__heading">About Myself</h1>
+          <p class="intro__text">
+            I’m a software developer! I can help you build a product , feature
+            or website Look through some of my work and experience! If you like
+            what you see and have a project you need coded, don’t hestiate to
+            contact me.
+          </p>
+          <h3 class="heading-link">
+            <a href="#" class="intro__contact">Let's Connect</a>
+          </h3>
+          <ul class="intro__social--cont">
+            <li class="social__item">
+              <a href="#" class="link__social">
+                <i class="fab fa-github-square"></i>
+              </a>
+            </li>
+            <li class="social__item">
+              <a href="#" class="link__social">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </li>
+            <li class="social__item">
+              <a href="#" class="link__social">
+                <i class="far fa-hand-peace"></i>
+              </a>
+            </li>
+            <li class="social__item">
+              <a href="#" class="link__social">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li class="social__item">
+              <a href="#" class="link__social">
+                <i class="fab fa-medium-m"></i>
+              </a>
+            </li>
+          </ul>
+          <button type="button" class="btn-action">Get my resume</button>
+        </div>
+        <div class="skills__cont">
+          <ul class="list__skills--cont">
+            <li class="cont__skill">
+              <p class="name__skill">Languages</p>
+              <i class="fas fa-chevron-down fa-xs icon__chevron"></i>
+            </li>
+            <li class="language__cont">
+              <ul class="lang-cont-list">
+                <li class="lang-info">
+                  <figure class="img__cont">
+                    <img
+                      src="ellipse1.png"
+                      alt="round javascript image"
+                      class="img__lang"
+                    />
+                  </figure>
+                  <p class="lng__name">Javascript</p>
+                </li>
+
+                <li class="lang-info">
+                  <figure class="img__cont">
+                    <img
+                      src="ellipse2.png"
+                      alt="a programming language"
+                      class="img__lang"
+                    />
+                  </figure>
+                  <p class="lng__name">HTML</p>
+                </li>
+                <li class="lang-info">
+                  <figure class="img__cont">
+                    <img
+                      src="ellipse3.png"
+                      alt="a programming language"
+                      class="img__lang"
+                    />
+                  </figure>
+                  <p class="lng__name">CSS</p>
+                </li>
+              </ul>
+            </li>
+
+            <li class="cont__skill skill__bord">
+              <p class="name__skill">Frameworks</p>
+              <i class="fas fa-chevron-right fa-xs icon__chevron"></i>
+            </li>
+            <li class="cont__skill skill__bord">
+              <p class="name__skill">Skills</p>
+              <i class="fas fa-chevron-right fa-xs icon__chevron"></i>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-cont-form">
+      <form
+        action="https://formspree.io/f/mpzkboln"
+        method="POST"
+        class="cont-inp-form"
+      >
+        <ul class="list-cont-inp">
+          <li class="cont-single-field">
+            <h4 class="title-form item-form">Contact me</h4>
+          </li>
+          <li class="cont-single-field">
+            <p class="text-form item-form">
+              If you have an application you are interested in developing, a
+              feature that you need built or a project that needs coding. I’d
+              love to help with it
+            </p>
+          </li>
+          <li class="cont-single-field item-field">
+            
+            <input type="text" id="name" name="user_name" class="user-name item-form" pattern="[a-zA-Z][a-zA-Z\s]*"
+              placeholder="Full Name"
+              maxlength="30"
+              required 
+            />    
+              
+              
+          </li>    
+            
+          
+          <li class="cont-single-field item-field">
+              
+              
+            <input type="email" id="mail" name="user_email" class="user-email item-form" placeholder="example@gmail.com" required/> 
         
-    
-    <ul class="section-bottom">
-        <div class="framework">
-        <h5 class="text">Frameworks</h5>
-        </div>
-        <i class="fas fa-angle-right fa-2x"></i>
-    </ul>
-    
-    <li class="seperator"></li>
-
-    <ul class="last-section">
-        <li class="text2">
-        <h5 class="text2">Skills</h5>
-        </li>
-        <i class="fas fa-angle-right fa-2x"></i>
-    </ul>
-
-    <div class="seperator"></div>
-    <div class="contact-form">
-        <span>Contact me</span>
-        <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it</p>
-        <form action="https://formspree.io/f/xzbywprd" method="POST">
-        <input type="text" name="name" id="name" placeholder="Yeremias" required maxlength="30">
-        <input type="email" name="email" id="email" placeholder="natajayanj14@gmail.com" required>
-        <textarea maxlength="500" name="message" id="message" cols="30" rows="10" placeholder="Write your message here" required></textarea>
-        <input type="submit" class="contact-form-btn" value="Get It Touch">
-        </form>
-        <div class="rectangele7">
-            <img src="Rectangle7.png" alt="">
-        </div>
-        <div class="backgroundellipse">
-            <img src="Ellipse5.png" alt="">
-        </div>
-    </div>
-
-
-
-    
-    
-    </ul>
-</section>
-    </main>
+          </li>
+          <li class="cont-single-field item-field">
+            <textarea id="msg" name="user-message" class="user-message item-form" cols="30" rows="10" placeholder="Write your message here" maxlength="500" required ></textarea>
+          </li>
+          <li class="cont-single-field cont-btn-form">
+            <button type="submit" class="btn-action">Get in Touch</button>
+          </li>
+        </ul>
+      </form>
+    </section>
+    <script src="script.js"></script>
   </body>
-  </html>
-    </section>
-  </main>
-  
-  <footer></footer>  
-</body>
 </html>

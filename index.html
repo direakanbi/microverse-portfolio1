@@ -10,6 +10,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;900&display=swap" rel="stylesheet"  />
     <title>Dire's Portfolio</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-DE403H0P3V"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-DE403H0P3V');
+</script>
   </head>
   <body>
     <header class="header">
@@ -335,7 +344,6 @@
         </div>
       </div>
     </section>
-
     <section class="contact-cont-form">
       <form
         action="https://formspree.io/f/mpzkboln"
@@ -354,22 +362,13 @@
             </p>
           </li>
           <li class="cont-single-field item-field">
-            
             <input type="text" id="name" name="user_name" class="user-name item-form" pattern="[a-zA-Z][a-zA-Z\s]*"
               placeholder="Full Name"
               maxlength="30"
-              required 
-            />    
-              
-              
+              required />       
           </li>    
-            
-          
-          <li class="cont-single-field item-field">
-              
-              
+            <li class="cont-single-field item-field">     
             <input type="email" id="mail" name="user_email" class="user-email item-form" placeholder="example@gmail.com" required/> 
-        
           </li>
           <li class="cont-single-field item-field">
             <textarea id="msg" name="user-message" class="user-message item-form" cols="30" rows="10" placeholder="Write your message here" maxlength="500" required ></textarea>

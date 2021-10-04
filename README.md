@@ -23,6 +23,9 @@ Usage: N/A
 Run tests: Run syntax tests with the use of the npx commands given in the linters.yml file.
 Deployment: Run index.html on your local server.
 
+# Live Version
+Live Demo Link: https://direakanbi.github.io/microverse-portfolio1/
+
 # Authors
 
 GitHub: @direakanbi

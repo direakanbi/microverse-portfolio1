@@ -5,51 +5,81 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;900&display=swap" rel="stylesheet"  />
-    <title>Dire's Portfolio</title>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-DE403H0P3V"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-WDN79F3CTY"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-  gtag('config', 'G-DE403H0P3V');
-</script>
+      gtag("config", "G-DE403H0P3V");
+    </script>
+    <title>Document</title>
   </head>
   <body>
     <header class="header">
       <h3 class="logo__title"><a href="#" class="link__logo">My Logo</a></h3>
       <nav class="menu__cont">
-        <i class="fas fa-bars fa-lg menu--humb"></i>
+        <i id="open" class="fas fa-bars fa-lg"></i>
+
         <ul class="cont-menu-list">
           <li class="menu-list">
-            <a href="#" class="link-menu">Portfolio</a>
+            <a href="#portfolio" class="link-menu">Portfolio</a>
           </li>
           <li class="menu-list">
-            <a href="#" class="link-menu">About</a>
+            <a href="#about" class="link-menu">About</a>
           </li>
           <li class="menu-list">
-            <a href="#" class="link-menu">Contact</a>
+            <a href="#contact" class="link-menu">Contact</a>
           </li>
         </ul>
       </nav>
     </header>
 
+    <nav class="mobile-menu">
+      <div class="icon-cont">
+        <a href="#" class="time-close">&times;</a>
+      </div>
+      <ul class="cont-mobile-menu-list">
+        <li class="menu-mobile-list">
+          <a href="#portfolio" class="link-mobile-menu">Portfolio</a>
+        </li>
+        <li class="menu-mobile-list">
+          <a href="#about" class="link-mobile-menu">About</a>
+        </li>
+        <li class="menu-mobile-list">
+          <a href="#contact" class="link-mobile-menu">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
     <section class="container">
       <div class="intro">
-        <h1 class="intro-header">I’m Dire <br> Glad to see you!</h1>
-        <p class="intro-text">
+        <h1 class="intro__heading">I’m Dire Glad to see you!</h1>
+        <p class="intro__text">
           I’m a software developer! I can help you build a product , feature or
           website Look through some of my work and experience! If you like what
           you see and have a project you need coded, don’t hestiate to contact
           me.
         </p>
-        <h3 class="header-link">
-          <a href="#" class="connect">Let's Connect</a>
+        <h3 class="heading-link">
+          <a href="#" class="intro__contact">Let's connect</a>
         </h3>
         <ul class="intro__social--cont">
           <li class="social__item">
@@ -81,12 +111,12 @@
       </div>
     </section>
 
-    <section class="container__card">
+    <section id="portfolio" class="container__card">
       <div class="card">
         <div class="card__img--cont">
           <figure class="img-wrapper">
             <img
-              src="./Snapshoot-Portfolio1.png"
+              src="Snapshoot-Portfolio1.png"
               alt="image of a project"
               class="img__card"
             />
@@ -94,7 +124,7 @@
           <div class="prjct-info-wrapper">
             <h2 class="desc__project">Tonic</h2>
             <ul class="project__info--cont">
-              <li class="project__info--title">Canopy</li>
+              <li class="project__info--title">canopy</li>
               <li class="project__info--dot">
                 <i class="fas fa-circle color__circle"></i>
               </li>
@@ -127,7 +157,7 @@
         <div class="card__img--cont card-2">
           <figure class="img-wrapper">
             <img
-              src="./snapshot-portfolio2.png"
+              src="snapshoot-portfolio2.png"
               alt="image of a project"
               class="img__card"
             />
@@ -135,7 +165,7 @@
           <div class="prjct-info-wrapper">
             <h2 class="desc__project">Multi-Post Stories</h2>
             <ul class="project__info--cont">
-              <li class="project__info--title">Canopy</li>
+              <li class="project__info--title">canopy</li>
               <li class="project__info--dot">
                 <i class="fas fa-circle color__circle"></i>
               </li>
@@ -168,7 +198,7 @@
         <div class="card__img--cont">
           <figure class="img-wrapper">
             <img
-              src="./snapshot-portfolio3.png"
+              src="snapshot-portfolio3.jpg"
               alt="image of a project"
               class="img__card"
             />
@@ -176,7 +206,7 @@
           <div class="prjct-info-wrapper">
             <h2 class="desc__project">Tonic</h2>
             <ul class="project__info--cont">
-              <li class="project__info--title">Canopy</li>
+              <li class="project__info--title">canopy</li>
               <li class="project__info--dot">
                 <i class="fas fa-circle color__circle"></i>
               </li>
@@ -209,7 +239,7 @@
         <div class="card__img--cont card-4">
           <figure class="img-wrapper">
             <img
-              src="./snapshot-portfolio4.png"
+              src="snapshot-portfolio4.png"
               alt="image of a project"
               class="img__card"
             />
@@ -217,7 +247,7 @@
           <div class="prjct-info-wrapper">
             <h2 class="desc__project">Multi-Post Stories</h2>
             <ul class="project__info--cont">
-              <li class="project__info--title">Canopy</li>
+              <li class="project__info--title">canopy</li>
               <li class="project__info--dot">
                 <i class="fas fa-circle color__circle"></i>
               </li>
@@ -248,7 +278,7 @@
       </div>
     </section>
 
-    <section class="about">
+    <section class="about" id="about">
       <div class="res-skil-cont">
         <div class="intro__resume">
           <h1 class="intro__heading">About Myself</h1>
@@ -259,7 +289,7 @@
             contact me.
           </p>
           <h3 class="heading-link">
-            <a href="#" class="intro__contact">Let's Connect</a>
+            <a href="#" class="intro__contact">Let's connect</a>
           </h3>
           <ul class="intro__social--cont">
             <li class="social__item">
@@ -301,8 +331,8 @@
                 <li class="lang-info">
                   <figure class="img__cont">
                     <img
-                      src="ellipse1.png"
-                      alt="round javascript image"
+                      src="js.png"
+                      alt="a programming language"
                       class="img__lang"
                     />
                   </figure>
@@ -312,7 +342,7 @@
                 <li class="lang-info">
                   <figure class="img__cont">
                     <img
-                      src="ellipse2.png"
+                      src="./html.png"
                       alt="a programming language"
                       class="img__lang"
                     />
@@ -322,7 +352,7 @@
                 <li class="lang-info">
                   <figure class="img__cont">
                     <img
-                      src="ellipse3.png"
+                      src="css.png"
                       alt="a programming language"
                       class="img__lang"
                     />
@@ -344,7 +374,8 @@
         </div>
       </div>
     </section>
-    <section class="contact-cont-form">
+
+    <section class="contact-cont-form" id="contact">
       <form
         action="https://formspree.io/f/mpzkboln"
         method="POST"
@@ -362,16 +393,38 @@
             </p>
           </li>
           <li class="cont-single-field item-field">
-            <input type="text" id="name" name="user_name" class="user-name item-form" pattern="[a-zA-Z][a-zA-Z\s]*"
+            <input
+              type="text"
+              id="name"
+              name="user_name"
+              class="user-name item-form"
+              pattern="[a-zA-Z][a-zA-Z\s]*"
               placeholder="Full Name"
               maxlength="30"
-              required />       
-          </li>    
-            <li class="cont-single-field item-field">     
-            <input type="email" id="mail" name="user_email" class="user-email item-form" placeholder="example@gmail.com" required/> 
+              required
+            />
           </li>
           <li class="cont-single-field item-field">
-            <textarea id="msg" name="user-message" class="user-message item-form" cols="30" rows="10" placeholder="Write your message here" maxlength="500" required ></textarea>
+            <input
+              type="email"
+              id="mail"
+              name="user_email"
+              class="user-email item-form"
+              placeholder="example@gmail.com"
+              required
+            />
+          </li>
+          <li class="cont-single-field item-field">
+            <textarea
+              id="msg"
+              name="user-message"
+              class="user-message item-form"
+              cols="30"
+              rows="10"
+              placeholder="Write your message here"
+              maxlength="500"
+              required
+            ></textarea>
           </li>
           <li class="cont-single-field cont-btn-form">
             <button type="submit" class="btn-action">Get in Touch</button>

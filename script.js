@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', () => {
-<<<<<<< Updated upstream
     document.querySelector('.logo__title').classList.add('rotate');
   });
   
@@ -16,7 +15,6 @@ document.addEventListener('DOMContentLoaded', () => {
   section.forEach((item) => {
     item.addEventListener('click', closeMenu);
   });
-=======
  document.querySelector('.logo__title').classList.add('rotate');
  const modal = document.createElement('div');
  const body = document.querySelector('body');
@@ -431,7 +429,6 @@ document.addEventListener('DOMContentLoaded', () => {
    contPrjctDet.style.display = 'none';
  }
  close.addEventListener('click', closeModal);
-});
 
 const navMobileClose = document.querySelector('.icon-cont');
 const mobileMenu = document.querySelector('.mobile-menu');
@@ -450,4 +447,3 @@ humbMenu.addEventListener('click', OpenMenu);
 section.forEach((item) => {
  item.addEventListener('click', closeMenu);
 });
->>>>>>> Stashed changes

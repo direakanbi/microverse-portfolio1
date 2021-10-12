@@ -1,20 +1,4 @@
 document.addEventListener('DOMContentLoaded', () => {
-    document.querySelector('.logo__title').classList.add('rotate');
-  });
-  
-  const navMobileClose = document.querySelector('.icon-cont');
-  const mobileMenu = document.querySelector('.mobile-menu');
-  const humbMenu = document.querySelector('#open');
-  const section = document.querySelectorAll('.link-mobile-menu');
-  function closeMenu() { mobileMenu.style.display = 'none'; }
-  navMobileClose.addEventListener('click', closeMenu);
-  function OpenMenu() {
-    mobileMenu.style.display = 'block';
-  }
-  humbMenu.addEventListener('click', OpenMenu);
-  section.forEach((item) => {
-    item.addEventListener('click', closeMenu);
-  });
  document.querySelector('.logo__title').classList.add('rotate');
  const modal = document.createElement('div');
  const body = document.querySelector('body');
@@ -126,7 +110,7 @@ document.addEventListener('DOMContentLoaded', () => {
  // card section part
  const projectInfoCard = [
    {
-     img: { url: './images/SnapshootPortfolio.png', alt: 'project' },
+     img: { url: './Snapshoot-Portfolio1.png', alt: 'project' },
      title: 'Tonic',
      prj_info: {
        title: 'Canopy',
@@ -141,7 +125,7 @@ document.addEventListener('DOMContentLoaded', () => {
      id: 'project1',
    },
    {
-     img: { url: './images/SnapshootPortfolio1.png', alt: 'project' },
+     img: { url: 'snapshot-portfolio2.png', alt: 'project' },
      title: 'Multi-Post Stories',
      prj_info: {
        title: 'Canopy',
@@ -156,7 +140,7 @@ document.addEventListener('DOMContentLoaded', () => {
      id: 'project2',
    },
    {
-     img: { url: './images/SnapshootPortfolio2.jpg', alt: 'project' },
+     img: { url: './snapshot-portfolio3.png', alt: 'project' },
      title: 'Tonic',
      prj_info: {
        title: 'Canopy',
@@ -171,7 +155,7 @@ document.addEventListener('DOMContentLoaded', () => {
      id: 'project3',
    },
    {
-     img: { url: './images/SnapshootPortfolio3.png', alt: 'project' },
+     img: { url: './snapshot-portfolio4.png', alt: 'project' },
      title: 'Multi-Post Stories',
      prj_info: {
        title: 'Canopy',
@@ -291,7 +275,7 @@ document.addEventListener('DOMContentLoaded', () => {
        job: 'Back End Dev',
        year: 2015,
      },
-     url_img: './images/SnapshootPortfolio.png',
+     url_img: './Snapshoot-Portfolio1.png',
      text_content:
        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
      languages: ['html', 'css', 'javascript'],
@@ -314,7 +298,7 @@ document.addEventListener('DOMContentLoaded', () => {
        job: 'Back End Dev',
        year: 2015,
      },
-     url_img: './images/SnapshootPortfolio1.png',
+     url_img: 'snapshot-portfolio2.png',
      text_content:
        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
      languages: ['html', 'css', 'javascript'],
@@ -337,7 +321,7 @@ document.addEventListener('DOMContentLoaded', () => {
        job: 'Back End Dev',
        year: 2015,
      },
-     url_img: './images/SnapshootPortfolio2.jpg',
+     url_img: './snapsho.jpg',
      text_content:
        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
      languages: ['html', 'css', 'javascript'],
@@ -360,7 +344,7 @@ document.addEventListener('DOMContentLoaded', () => {
        job: 'Back End Dev',
        year: 2015,
      },
-     url_img: './images/SnapshootPortfolio3.png',
+     url_img: './snapshot-portfolio4.png',
      text_content:
        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
      languages: ['html', 'css', 'javascript'],
@@ -429,6 +413,7 @@ document.addEventListener('DOMContentLoaded', () => {
    contPrjctDet.style.display = 'none';
  }
  close.addEventListener('click', closeModal);
+});
 
 const navMobileClose = document.querySelector('.icon-cont');
 const mobileMenu = document.querySelector('.mobile-menu');

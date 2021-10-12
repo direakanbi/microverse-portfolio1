@@ -55,7 +55,7 @@ body {
 }
 
 .container {
-  background-image: url(Header-bg@2x.png);
+  background-image: url(./Header-bg@2x.png);
   min-width: 100%;
   background-color: white;
   background-repeat: no-repeat;
@@ -187,7 +187,8 @@ body {
   display: flex;
 }
 
-.desc__project {
+.desc__project,
+.title-info {
   font-weight: bold;
   color: #091e42;
 }
@@ -196,6 +197,7 @@ body {
   color: #344563;
   font-weight: 700;
   line-height: 16px;
+  font-size: 0.8rem;
 }
 
 .project__info--dot {
@@ -203,14 +205,16 @@ body {
   align-items: center;
 }
 
-.project__info--author {
+.project__info--author,
+.job-info {
   color: #c1c7d0;
   font-weight: 500;
   line-height: 16px;
   font-size: 13px;
 }
 
-.project__info--date {
+.project__info--date,
+.year-info {
   color: #c1c7d0;
   font-weight: 500;
   line-height: 16px;
@@ -224,7 +228,8 @@ body {
   line-height: 24px;
 }
 
-.lng__btn {
+.lng__btn,
+.lang-text {
   background: #ebebff;
   border-radius: 8px;
   padding: 4px 12px;
@@ -264,6 +269,26 @@ body {
 
 .cont-mobile-menu-list > *:not(:last-child) {
   margin-bottom: 1.5rem;
+}
+
+.cont-prjct-wrapper > *:not(:first-child) {
+  margin-bottom: 0.1rem;
+}
+
+.pop-proj-info > *:not(:last-child) {
+  margin-right: 0.3rem;
+}
+
+.pop-info-cont > *:not(:last-child) {
+  margin-bottom: 0.1rem;
+}
+
+.cont-list > *:not(:last-child) {
+  margin-right: 0.1rem;
+}
+
+.cont-lang-btn > *:not(:last-child) {
+  margin-bottom: 0.1rem;
 }
 
 .res-skil-cont > .intro__resume > *:not(:first-child) {
@@ -437,12 +462,39 @@ body {
   transition: ease-in-out 0.3s;
 }
 
-.btn-action:active {
+.btn-live,
+.btn-source {
+  font-style: normal;
+  font-weight: 600;
+  min-width: 7rem;
+  margin-bottom: 0.3rem;
+  font-size: 13px;
+  color: #6070ff;
+  padding: 8px 8px;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  border: 1px solid #7f8cff;
+  border-radius: 8px;
+  letter-spacing: 0.03em;
+  background-color: #fff;
+  transition: ease-in-out 0.3s;
+}
+
+.btn-live {
+  margin-right: 0.5rem;
+}
+
+.btn-action:active,
+.btn-live:active,
+.btn-source:active {
   background-color: #2230d2 !important;
   color: #fff !important;
 }
 
-.btn-action:hover {
+.btn-action:hover,
+.btn-live:hover,
+.btn-source:hover {
   background-color: #6070ff;
   color: white;
   cursor: pointer;
@@ -476,15 +528,6 @@ body {
   display: none;
 }
 
-.dis-mobile-menu {
-  position: absolute;
-  right: 4rem;
-  top: 4rem;
-  background-color: transparent;
-  color: #fff;
-  border: none;
-}
-
 .cont-mobile-menu-list {
   list-style: none;
   display: flex;
@@ -499,16 +542,6 @@ body {
   font-size: 32px;
   line-height: 44px;
   color: #fff;
-}
-
-.close-mob-menu {
-  display: none !important;
-}
-
-.open-mob-menu {
-  display: block !important;
-  position: absolute;
-  z-index: 400000;
 }
 
 .icon-cont {
@@ -537,9 +570,101 @@ body {
   color: white;
 }
 
+.modal-pop-up {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.267);
+  z-index: 2;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: none;
+  transition: all 0.3s;
+}
+
+.close-pop-modal {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.pop-prjct-det {
+  width: 75%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.527);
+  display: none;
+  transition: all 0.3s;
+}
+
+.cont-prjct-wrapper {
+  width: 90%;
+  margin: 0.3rem auto;
+}
+
+.pop-proj-info {
+  list-style: none;
+  display: flex;
+  align-items: baseline;
+}
+
+.pop-img-cont {
+  width: 100%;
+}
+
+.pop-img-proj {
+  width: 100%;
+}
+
+.cont-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pop-text {
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.cont-button {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.live-btn-text,
+.source-btn-text {
+  margin-right: 0.2rem;
+}
+
+.heading-sec {
+  display: none;
+}
+
 @media (min-width: 992px) {
   .cont-menu-list {
     list-style: none;
+    display: flex;
+  }
+
+  .pop-prjct-det {
+    width: 60%;
+  }
+
+  .pop-info-cont {
     display: flex;
   }
 
@@ -653,6 +778,15 @@ body {
   .intro {
     width: 60%;
     margin: 10rem auto 2rem auto;
+  }
+
+  .pop-prjct-det {
+    width: 50%;
+  }
+
+  .pop-info-cont {
+    display: flex;
+    width: 100%;
   }
 
   .card__img--cont {

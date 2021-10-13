@@ -416,7 +416,7 @@ body {
 .user-email:focus-visible,
 .user-message:focus-visible {
   outline: none;
-  background-color:blue;
+  background-color: blue;
   color: white;
   border: none;
 }

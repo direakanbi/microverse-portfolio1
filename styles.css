@@ -416,8 +416,8 @@ body {
 .user-email:focus-visible,
 .user-message:focus-visible {
   outline: none;
-  background-color: gold;
-  color: black;
+  background-color:blue;
+  color: white;
   border: none;
 }
 
@@ -652,6 +652,14 @@ body {
 
 .heading-sec {
   display: none;
+}
+
+.email-validat-mess {
+  font-weight: 500;
+  font-size: 0.9rem;
+  padding: 0;
+  margin: 0;
+  color: rgb(255, 238, 0);
 }
 
 @media (min-width: 992px) {

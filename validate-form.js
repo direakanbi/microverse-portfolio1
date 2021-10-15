@@ -9,7 +9,7 @@ form.addEventListener('submit', (event) => {
     errorMessage = 'Email field should be in lowercase';
   }
 
-  if (errorMessage !== null) {
+  if (errorMessage == null) {
     event.preventDefault();
     errorField.textContent = errorMessage;
   }
